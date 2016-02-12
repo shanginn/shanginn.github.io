@@ -7,6 +7,9 @@
 
 @import "reset";
 @import "variables";
+
+@import "imports";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -176,7 +179,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    
   }
 }
 
