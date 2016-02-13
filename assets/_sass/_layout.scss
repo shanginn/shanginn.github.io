@@ -8,11 +8,12 @@
 
 .wrapper-masthead {
   margin-bottom: 20px;
+  border-bottom: 1px solid lighten($action-color, 25%);
+  display: block;
 }
 
 .masthead {
   padding: 12px 0;
-  border-bottom: 1px solid lighten($action-color, 25%);
   text-align: center;
 
   @include mobile {
@@ -47,7 +48,7 @@ header > a {
   line-height: 80px;
   height: 70px;
   
-  color: $blue-sh;
+  color: $action-color;
   padding: 0 10px;
 
   letter-spacing: 1px;

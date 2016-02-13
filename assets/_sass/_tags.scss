@@ -23,11 +23,12 @@
 }
 
 .post-tags {
+  @extend .clearfix;
   position: relative;
   $tag-color: lighten($gray, 10%);
   $tag-height: $unit / 3 * 2;
-
-  list-style-type: none;
+  display: inline-block;
+  vertical-align: middle;
   a {
     @include tag($tag-color, $tag-height);
     
