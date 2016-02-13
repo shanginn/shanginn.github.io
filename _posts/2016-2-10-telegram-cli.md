@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Telegram CLI
+category: Telegram CLI
+tags:
+- Telegram CLI
 ---
 
 Всем привет. На днях начал своё знакомство с консольным клиентом для **Telegram**'a. Решил по этому поводу написать пару статей.

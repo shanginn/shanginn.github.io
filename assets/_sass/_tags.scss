@@ -1,0 +1,54 @@
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: justify; 
+  font-size: 16px;
+  li {
+    display: inline-block;
+    margin: 0 12px 12px 0; 
+  }
+}
+
+.archive-group {
+  margin: 15px 0;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  > h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+}
+.archive-item {
+  margin-left: 5px;
+}
+
+.post-tags {
+  position: relative;
+  $tag-color: lighten($gray, 10%);
+  $tag-height: $unit / 3 * 2;
+
+  list-style-type: none;
+  a {
+    @include tag($tag-color, $tag-height);
+    
+    text-decoration: none;
+    float: left;
+    margin: 0 0 $unit/4 $tag-height;
+
+    &:first-child {
+      margin-left: $tag-height/2;
+    }
+
+    &:hover, &:focus, &:active {
+      $tag-highlight-color: $action-color;
+      background-color: $tag-highlight-color;
+      &::before {
+        border-right-color: $tag-highlight-color;
+      }
+    }
+  }
+}
+
+.tag {
+    @include tag(lighten($alt-background-color, 10%), $unit);
+}

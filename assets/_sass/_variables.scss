@@ -1,0 +1,29 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue:                  #4183C4;
+$text-color:            #17181d;
+$background-color:      #fafcfc;
+$action-color:          #67a492;
+$alt-action-color:      #8167ad;
+$alt-background-color:  lighten($text-color, 10%);
+$gray:                  lighten($text-color, 30%);
+$black:                 #333;
+$white:                 #fff;
+// Blues
+$blue-bg:               #1a237e;
+$blue-sh:               #0089e9;
+
+$transparent: rgba(white, 0);
+
+// Font stacks
+$font:      "Roboto", sans-serif;
+$font-cs:   "Open Sans Condensed", sans-serif;
+
+$base-font-size:  17px;
+$small-font-size: $base-font-size * 0.875;
+
+$unit: 24px;

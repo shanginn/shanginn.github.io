@@ -8,28 +8,27 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }} /script.js"></script>
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <a href="{{ site.baseurl }}/">
+            <span class="site-avatar"><img src="{{ site.avatar }}" /></span>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <!-- <a href="{{ site.baseurl }}/">Блог</a> -->
-            <!-- <a href="{{ site.baseurl }}/about">Обо мне</a> -->
-          </nav>
+            <h1 class="site-name">
+              <span class="last-name">{{ site.lastname }}</span>
+              <span class="first-name">{{ site.firstname }}</span>
+            </h1>
+          </a>
         </header>
       </div>
     </div>

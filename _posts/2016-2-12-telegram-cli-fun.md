@@ -1,7 +1,12 @@
 ---
 layout: post
 title: Telegram CLI - обёртка для демона под zsh
+category: Telegram CLI
+tags:
+- Telegram CLI
+- zsh
 ---
+
 В [предыдщуей статье]({{ site.basepath }} /telegram-cli-daemon/) мы закончили на запуске демона и поняли, что посылать команды через конвеер не очень удобно. Поэтому сейчас мы будем писать оболочку для этого добра.
 
 ## Коротко о zsh
