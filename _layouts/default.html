@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
 
@@ -25,8 +25,7 @@
             <span class="site-avatar"><img src="{{ site.avatar }}" /></span>
 
             <h1 class="site-name">
-              <span class="last-name">{{ site.lastname }}</span>
-              <span class="first-name">{{ site.firstname }}</span>
+              {{ site.name }}
             </h1>
             
         </header>
