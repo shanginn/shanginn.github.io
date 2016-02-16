@@ -40,25 +40,20 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   color: $gray;
+  font-weight: 800;
+  font-family: $font;
+  margin: .5em 0;
+  
+  @include mobile {
+    line-height: 1.4;
+  }
+
   a {
     border-bottom: none;
     &:hover {
       background-color: inherit;
       color: $action-color;
     }
-  }
-}
-
-h1, h2, h3 {
-  font-weight: 800;
-  font-family: $font;
-  margin: .5em 0;
-}
-h4, h5, h6 {
-  text-wrap: balanced;
-
-  @include mobile {
-    line-height: 1.4;
   }
 }
 

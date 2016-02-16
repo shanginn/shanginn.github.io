@@ -4,6 +4,7 @@ title: Telegram CLI
 category: Telegram CLI
 tags:
 - Telegram CLI
+- CLI
 ---
 
 Всем привет. На днях начал своё знакомство с консольным клиентом для `Telegram`. Решил по этому поводу написать пару статей.
@@ -12,9 +13,9 @@ tags:
 ## Установка
 У меня стоит `Fedora 22` в репозиториях которой присутствует `telegram-cli`, поэтому если вы в таких же условиях, то можно сделать так:
 
-``` bash
+~~~ bash
 sudo dnf install telegram-cli
-```
+~~~
 
 Но мы пойдём другим путём и установим его из сорцов, тем более что это делается очень просто.
 
@@ -26,33 +27,33 @@ sudo dnf install telegram-cli
 
 Я предпочитаю устанавливать сторонние программы в директорию `/opt`. Перейдём в неё и клонируем репозиторий
 
-```bash
+~~~ bash
 sudo git clone --recursive https://github.com/vysheng/tg.git /opt/tg
 cd /opt/tg
-```
+~~~
 
 Дальше нужно установить зависимости. В исторукции из репозитория написано установить `libjansson-devel`, который моему dnf'у найти не удалось, зато он нашёл `jansson-devel`.
 
-```bash
+~~~ bash
 sudo dnf install -y lua-devel openssl-devel libconfig-devel readline-devel libevent-devel jansson-devel python-devel
-```
+~~~
 
 Мы уже находимся в каталоге `/opt/tg` поэтому начнем сборку.
-```bash
+~~~ bash
 ./configure
 make
-```
+~~~
 
 Если всё прошло хорошо, то в папке `bin` должен появиться `telegram-cli`. Осталось запихнуть его куда-нибудь в пути.
-```bash
+~~~ bash
 ln -s /opt/tg/bin/telegram-cli /usr/bin/
-```
+~~~
 
 Пробуем запустить
 
-```bash
+~~~ bash
 telegram-cli
-```
+~~~
 Получилось? Тогда учимся пользоваться.
 
 ## Запуск
@@ -66,9 +67,9 @@ telegram-cli
 ## Использование
 Что первым делом нужно вводить в любую консоль?
 
-```
+~~~
 help
-```
+~~~
 
 Посмотрим, что у нас есть
 
@@ -150,10 +151,10 @@ Peer это имя контакта или диалога; можно допол
 
 Напишем сообщение Даниле и посмотрим, что он ответит. Отправить сообщение можно не сразу, сначала нужно дождаться, пока прогрузяться все контакты.
 
-``` bash
+~~~ bash
 telegram-cli -W
 msg Данила ping
-```
+~~~
 
 ![]({{ site.baseurl }} /images/tcli/tcli-msg.png)
 
