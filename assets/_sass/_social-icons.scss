@@ -37,6 +37,9 @@ $color_deep_sea_green_approx: #00555c;
   &:hover {
     border-bottom: 3px solid $color;
   }
+  &:focus {
+    color: $color;
+  }
 }
 
 .footer {
