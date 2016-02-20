@@ -1,0 +1,38 @@
+.wrapper-footer {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $alt-background-color;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-link {
+  display: inline-block;
+  
+  border-bottom: none;
+  margin: 0 5px;
+  text-align: center;
+  
+  &:hover {
+    background: none;
+  }
+}
+
+.footer-icon {
+  font-size: 25px;
+  border-bottom: 3px solid $cyan-light;
+  text-align: center;
+  color: $cyan-light;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  transition: all 0.3s ease;
+  &:hover,
+  &:active {
+      color: $white;
+  }
+}

@@ -1,0 +1,18 @@
+#logo {
+    > #sb,
+    > #sh,
+    > #ss {
+        fill-rule: evenodd;
+    }
+    > #sb {
+        fill: #00796B;
+    }
+
+    > #sh {
+        fill: #E0F2F1;
+    }
+
+    > #ss {
+        fill: #004D40;
+    }
+}

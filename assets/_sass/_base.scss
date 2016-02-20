@@ -34,7 +34,7 @@ a {
     cursor: pointer;
     text-decoration: none;
     border-bottom-color: $action-color;
-    background-color: $cyan-a;
+    background-color: $cyan-light;
   }
 }
 
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   
   @include mobile {
     line-height: 1.4;
-  }
+    }
 
   a {
     border-bottom: none;

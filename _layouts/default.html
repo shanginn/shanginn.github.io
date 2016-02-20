@@ -8,6 +8,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
@@ -22,7 +23,13 @@
       <div class="container">
         <header class="masthead clearfix">
           
-            <span class="site-avatar"><img src="{{ site.avatar }}" /></span>
+            <span class="site-avatar">
+              <svg  id="logo" xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" viewBox="0 0 574.8 600" overflow="scroll">
+                <path id="sb" d="M0 0h574.8v600H0z"/>
+                <path id="sh" d="M93.5 504.8h390.7v-409h-78.1v329.9H328V299.8h-78.1v125.9h-78.2V95.8H93.5v409zM328 95.8v125.9h-78.1V95.8H328z"/>
+                <path id="ss" d="M249.8 177.4l-78.1-81.6v329.9h78.1V299.8H328v125.9h78.1V177.4L328 95.8v125.9h-78.1v-44.3h-.1zm-65 422.6l-91.2-95.2h390.7v-409l90.5 94.5V600h-390z"/>
+              </svg>
+            </span>
 
             <h1 class="site-name">
               {{ site.name }}
@@ -39,7 +46,7 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+          {% include footer-icons.html %}
         </footer>
       </div>
     </div>

@@ -1,0 +1,193 @@
+//colors
+$white: #fff;
+$white_80: rgba(255, 255, 255, 0.8);
+$color_mine_shaft_approx: #333;
+$color_abbey_approx: #504e54;
+$color_cadet_blue_approx: #aeb5c5;
+$color_atlantis_approx: #a5c63b;
+$midnight_blue: #003366;
+$color_tree_poppy_approx: #f7931a;
+$color_denim_approx: #1572b7;
+$color_deep_blush_approx: #f46899;
+$color_lochmara_approx: #018bd3;
+$color_azure_approx: #3c599f;
+$color_rose_approx: #ff0084;
+$color_cod_gray_approx: #070709;
+$color_persian_red_approx: #cf3d2e;
+$color_pomegranate_approx: #e54d26;
+$color_toast_approx: #a1755c;
+$color_deep_cerulean_approx: #0085ae;
+$color_amber_approx: #fbc002;
+$color_buttercup_approx: #f6ae1c;
+$color_zeus_approx: #241e20;
+$color_royal_blue_approx: #3984ea;
+$color_cardinal_approx: #cc2127;
+$color_endeavour_approx: #025dac;
+$color_cerulean_approx: #01aef2;
+$color_st_tropaz_approx: #245590;
+$color_chilean_fire_approx: #ff7300;
+$color_blumine_approx: #265a7f;
+$color_san_juan_approx: #314e6c;
+$color_picton_blue_approx: #32ccfe;
+$color_curious_blue_approx: #229acc;
+$color_fiord_approx: #375474;
+$color_deep_sea_green_approx: #00555c;
+
+@mixin icon-style($color) {
+  &:hover {
+    border-bottom: 3px solid $color;
+  }
+}
+
+.footer {
+  .fa-envelope-o {
+    @include icon-style($color_pomegranate_approx);
+  }
+  .fa-bitbucket {
+    @include icon-style($midnight_blue);
+  }
+  .fa-bitbucket-square {
+    @include icon-style($midnight_blue);
+  }
+  .fa-bitcoin {
+    @include icon-style($color_tree_poppy_approx);
+  }
+  .fa-btc {
+    @include icon-style($color_tree_poppy_approx);
+  }
+  .fa-css3 {
+    @include icon-style($color_denim_approx);
+  }
+  .fa-dribbble {
+    @include icon-style($color_deep_blush_approx);
+  }
+  .fa-dropbox {
+    @include icon-style($color_lochmara_approx);
+  }
+  .fa-facebook {
+    @include icon-style($color_azure_approx);
+  }
+  .fa-facebook-square {
+    @include icon-style($color_azure_approx);
+  }
+  .fa-flickr {
+    @include icon-style($color_rose_approx);
+  }
+  .fa-github {
+    @include icon-style($color_cod_gray_approx);
+  }
+  .fa-github-alt {
+    @include icon-style($color_cod_gray_approx);
+  }
+  .fa-github-square {
+    @include icon-style($color_cod_gray_approx);
+  }
+  .fa-google-plus {
+    @include icon-style($color_persian_red_approx);
+  }
+  .fa-google-plus-square {
+    @include icon-style($color_persian_red_approx);
+  }
+  .fa-html5 {
+    @include icon-style($color_pomegranate_approx);
+  }
+  .fa-instagram {
+    @include icon-style($color_toast_approx);
+  }
+  .fa-linux {
+    @include icon-style($color_amber_approx);
+    color: $color_mine_shaft_approx;
+  }
+  .fa-maxcdn {
+    @include icon-style($color_buttercup_approx);
+  }
+  .fa-pagelines {
+    @include icon-style($color_zeus_approx);
+    color: $color_royal_blue_approx;
+  }
+  .fa-pinterest {
+    @include icon-style($color_cardinal_approx);
+  }
+  .fa-pinterest-square {
+    @include icon-style($color_cardinal_approx);
+  }
+  .fa-renren {
+    @include icon-style($color_endeavour_approx);
+  }
+  .fa-skype {
+    @include icon-style($color_cerulean_approx);
+  }
+  .fa-stack-exchange {
+    @include icon-style($color_st_tropaz_approx);
+  }
+  .fa-stack-overflow {
+    @include icon-style($color_chilean_fire_approx);
+  }
+  .fa-trello {
+    @include icon-style($color_blumine_approx);
+  }
+  .fa-tumblr {
+    @include icon-style($color_san_juan_approx);
+  }
+  .fa-tumblr-square {
+    @include icon-style($color_san_juan_approx);
+  }
+  .fa-twitter {
+    @include icon-style($color_picton_blue_approx);
+  }
+  .fa-twitter-square {
+    @include icon-style($color_picton_blue_approx);
+  }
+  .fa-vimeo-square {
+    @include icon-style($color_curious_blue_approx);
+  }
+  .fa-vk {
+    @include icon-style($color_fiord_approx);
+  }
+  .fa-weibo {
+    @include icon-style($color_persian_red_approx);
+  }
+  .fa-windows {
+    @include icon-style($color_cerulean_approx);
+  }
+  .fa-xing {
+    @include icon-style($color_deep_sea_green_approx);
+  }
+  .fa-xing-square {
+    @include icon-style($color_deep_sea_green_approx);
+  }
+  .fa-youtube {
+    @include icon-style($color_persian_red_approx);
+  }
+  .fa-youtube-play {
+    @include icon-style($color_persian_red_approx);
+  }
+  .fa-youtube-square {
+    @include icon-style($color_persian_red_approx);
+  }
+  &.icon-circle .fa {
+    border-radius: 50%;
+  }
+  &.icon-rounded .fa {
+    border-radius: 5px;
+  }
+  &.icon-flat .fa {
+    border-radius: 0;
+  }
+  &.icon-zoom .fa {
+    &:hover {
+      transform: scale(1.1);
+    }
+    &:active {
+      transform: scale(1.1);
+    }
+  }
+  &.icon-rotate .fa {
+    &:hover {
+      transform: scale(1.1) rotate(360deg);
+    }
+    &:active {
+      transform: scale(1.1) rotate(360deg);
+    }
+  }
+}
