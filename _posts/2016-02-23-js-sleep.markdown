@@ -11,7 +11,7 @@ tags:
 
 **Блокировать исполнение кода - очень плохо, пнятненько?**
 
-![]({{site.basepath}} /images/mkay.png)
+![]({{ site.basepath }} /images/mkay.png)
 
 Но если вы чувствуете, что без этого никак и вам срочно нужен говнокод, но работающий, то представляю вашему вниманию функцию `sleep` на `javascript`:
 
@@ -23,5 +23,8 @@ function sleep(milliseconds) {
 ~~~
 
 Всё просто: гоняем пустой цикл, пока время не истечёт.
+
+И простой пример:
+![]({{ site.basepath }} /images/posts/sleep-js.png)
 
 And there you have it!
