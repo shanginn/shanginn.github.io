@@ -1,6 +1,7 @@
 ---
 title: Sleep на javascript
 layout: post
+category: javascript
 tags:
 - javascript
 - snippet
