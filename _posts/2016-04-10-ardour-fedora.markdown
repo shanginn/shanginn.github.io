@@ -1,5 +1,5 @@
 ---
-title: Fedora музыкальная: собираем Ardour
+title: Fedora музыкальная или собираем Ardour из исходников
 layout: post
 category: Audio
 tags:
