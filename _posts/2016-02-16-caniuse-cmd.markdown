@@ -90,3 +90,5 @@ Options:
 ~~~
 
 Вот и всё на сегодня.
+
+*P.S.: не забываем обновляться через `sudo npm install -g caniuse-cmd`*
