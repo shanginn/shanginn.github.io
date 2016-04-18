@@ -1,7 +1,7 @@
 ---
-title: SMACSS Часть 0 вступение
+title: SMACSS Часть 0 От переводчика
 layout: post
-category: CSS
+category: SMACSS
 tags:
 - CSS
 - SMACSS
