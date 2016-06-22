@@ -1,0 +1,1738 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"force",
+				"force_encoding"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"share",
+				"sharedSecret"
+			],
+			[
+				"nex",
+				"nextUser"
+			],
+			[
+				"bigInt",
+				"bigInt2str"
+			],
+			[
+				"bigI",
+				"bigInt2str"
+			],
+			[
+				"cust",
+				"custom_search_engine"
+			],
+			[
+				"check",
+				"check_ip"
+			],
+			[
+				"db_c",
+				"db_connect"
+			],
+			[
+				"exe",
+				"exec_func"
+			],
+			[
+				"cry",
+				"crypter_php"
+			],
+			[
+				"index",
+				"index_bs64"
+			],
+			[
+				"b",
+				"b64encode"
+			],
+			[
+				"base",
+				"base64_decode"
+			],
+			[
+				"photo",
+				"photo_bs64"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"upload_she",
+				"upload_shells"
+			],
+			[
+				"joo",
+				"joomla_info_buffer"
+			],
+			[
+				"IO",
+				"StringIO"
+			],
+			[
+				"drop",
+				"droper_base64"
+			],
+			[
+				"print",
+				"print_content"
+			],
+			[
+				"STERE",
+				"STEREO_RIGHT"
+			],
+			[
+				"selec",
+				"selected_text"
+			],
+			[
+				"selected",
+				"selectedText"
+			],
+			[
+				"__places",
+				"__places_town"
+			],
+			[
+				"sear",
+				"search_query"
+			],
+			[
+				"pus",
+				"published"
+			],
+			[
+				"geO",
+				"geoObj"
+			],
+			[
+				"code",
+				"codemirror"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"key",
+				"keyIndex"
+			],
+			[
+				"for",
+				"for	JS - For loop"
+			],
+			[
+				"fullwi",
+				"full-width"
+			],
+			[
+				"tar",
+				"ta:r	text-align:right"
+			],
+			[
+				"enable",
+				"enable_emmet"
+			],
+			[
+				"dark",
+				"darkTextColor"
+			],
+			[
+				"prima",
+				"primaryColor"
+			],
+			[
+				"fullWi",
+				"fullWidthFooter"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"menuLinkHover",
+				"menuLinkHoverColor"
+			],
+			[
+				"new",
+				"newContent"
+			],
+			[
+				"decod",
+				"decoded_json"
+			],
+			[
+				"curre",
+				"currentTarget"
+			],
+			[
+				"wuhan",
+				"wuhangIndex"
+			],
+			[
+				"dizhi",
+				"dizhiIndex"
+			],
+			[
+				"eat",
+				"earth"
+			],
+			[
+				"editor",
+				"editorTheme"
+			],
+			[
+				"append",
+				"appendBody"
+			],
+			[
+				"pfm",
+				"pfmPanelZip"
+			],
+			[
+				"preve",
+				"preventDefault"
+			],
+			[
+				"current",
+				"currentLiIndex"
+			],
+			[
+				"und",
+				"undefined"
+			],
+			[
+				"parse",
+				"parse	$.parseJSON()"
+			],
+			[
+				"view",
+				"viewType"
+			],
+			[
+				"Json",
+				"parseJSON"
+			],
+			[
+				"pfmRe",
+				"pfmPanelRefresh"
+			],
+			[
+				"pfmPa",
+				"pfmPanelRefresh"
+			],
+			[
+				"pfmPane",
+				"pfmPanelPath"
+			],
+			[
+				"pare",
+				"parents	.parents()"
+			],
+			[
+				"mate",
+				"material_name"
+			],
+			[
+				"upp",
+				"uppName"
+			],
+			[
+				"tw",
+				"tween1"
+			],
+			[
+				"mk",
+				"mktime"
+			],
+			[
+				"filesi",
+				"filesize_before"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"tr",
+				"triggerAnimation"
+			],
+			[
+				"glue",
+				"glueOffset"
+			],
+			[
+				"wr",
+				"wrapOffsetTop"
+			],
+			[
+				"wrap",
+				"wrapHeight"
+			],
+			[
+				"t",
+				"try	Try/Except"
+			],
+			[
+				"temp",
+				"tempfile"
+			],
+			[
+				"requ",
+				"requestUrl"
+			],
+			[
+				"mail",
+				"mail_location"
+			],
+			[
+				"ni",
+				"nightmare"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 708.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"synt",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"js",
+				"Indent JSON"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"to tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"uni",
+				"Permute Lines: Unique"
+			],
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ts",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"ngi",
+				"Set Syntax: nginx"
+			],
+			[
+				"synta",
+				"Set Syntax: Haskell"
+			],
+			[
+				"syn",
+				"Set Syntax: Makefile"
+			],
+			[
+				"synte",
+				"Set Syntax: Emmet"
+			],
+			[
+				"syt",
+				"Set Syntax: TeX"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"AngularJS: Toggle - Disable Indexed Isolate Completions"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"ini",
+				"Set Syntax: INI"
+			],
+			[
+				"book",
+				"Bookmarks: Select All"
+			],
+			[
+				"bookma",
+				"Bookmarks: Toggle"
+			],
+			[
+				"mark",
+				"Bookmarks: Clear All"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"breacke",
+				"BracketHighlighter: Swap Brackets"
+			],
+			[
+				"brack",
+				"Bracketeer: Indent Text"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"toggle",
+				"View: Toggle Menu"
+			],
+			[
+				"togll",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"to",
+				"View: Toggle Menu"
+			],
+			[
+				"t",
+				"View: Toggle Menu"
+			],
+			[
+				"toggl",
+				"View: Toggle Menu"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"toggle m",
+				"View: Toggle Menu"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"ssjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"sssass",
+				"Set Syntax: Sass"
+			],
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"sftp",
+				"SFTP: Map to Remote…"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"ssnone",
+				"Set Syntax: R Console"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"ss",
+				"Set Syntax: XML"
+			],
+			[
+				"coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"c+",
+				"Set Syntax: C++"
+			],
+			[
+				"coffee",
+				"Coffee: Compile File"
+			],
+			[
+				"cake",
+				"Coffee: Run Cake Task"
+			],
+			[
+				"cofee",
+				"Coffee: Lint"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"autopre",
+				"Autoprefix CSS"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"autor",
+				"Autoprefix CSS"
+			],
+			[
+				"sassbe",
+				"SassBeautify"
+			],
+			[
+				"sassb",
+				"SassBeautify"
+			],
+			[
+				"sassbea",
+				"SassBeautify"
+			],
+			[
+				"sass",
+				"SassBeautify: Convert from SCSS to current type"
+			],
+			[
+				"ht ",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"jsbe",
+				"Javascript Beautify"
+			],
+			[
+				"livest",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"live",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"repl",
+				"Set Syntax: Io Repl"
+			],
+			[
+				"sscon",
+				"Set Syntax: R Console"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"HTML",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 1024.0
+	},
+	"console":
+	{
+		"height": 478.0,
+		"history":
+		[
+			"gulp",
+			"sublime.log_input(True)",
+			"asf",
+			"cake",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/shanginn.github.io"
+	],
+	"file_history":
+	[
+		"/home/shance/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/shance/.config/sublime-text-3/Packages/Material Theme/Material-Theme.sublime-theme",
+		"/home/shance/.config/sublime-text-3/Theme/Material-Theme.sublime-theme",
+		"/home/shance/.config/sublime-text-3/Packages/Material Theme/schemes/Material-Theme.YAML-tmTheme",
+		"/home/shance/.config/sublime-text-3/Packages/Material Theme/schemes/Material-Theme.tmTheme",
+		"/home/shance/.config/sublime-text-3/Packages/Material Theme/schemes/OLD/Material-Theme.tmTheme",
+		"/home/shance/.config/sublime-text-3/Packages/Material Theme/src/settings/specific/Material-Theme.json",
+		"/home/shance/.config/sublime-text-3/Packages/Material Theme/widgets/Widget - Material-Theme.stTheme",
+		"/home/shance/Documents/git-repos/arc-theme/common/gtk-3.0/3.20/sass/_colors.scss",
+		"/home/shance/Downloads/tonet666p-gtk-theme-config.repo",
+		"/home/shance/Documents/git-repos/arc-theme/common/gtk-2.0/menubar-toolbar/menubar-toolbar.rc",
+		"/home/shance/Documents/git-repos/arc-theme/common/gtk-2.0/gtkrc",
+		"/usr/share/themes/Arc/gtk-3.0/gtk-dark.css",
+		"/home/shance/.antigen/antigen.zsh",
+		"/var/www/fasad.lo/templates/blank_j3/src/scss/base/_vars.scss",
+		"/var/www/fasad.lo/templates/blank_j3/src/scss/base/_base.scss",
+		"/var/www/crypto/venom.py",
+		"/home/shance/Projects/pentest/tools/python/joomla_user_agent_exploit/checked",
+		"/var/www/jtest.lo/administrator/components/com_catalogue/models/fields/attributes.php",
+		"/var/www/jtest.lo/administrator/components/com_catalogue",
+		"/var/www/dev.catalogue.lo/_dev/pkg_agg_catalogue/build",
+		"/home/shance/Downloads/Telegram Desktop/install.mysql.utf8.sql",
+		"/var/www/mmodule/resources/views/aggregion/categories.haml.blade.php",
+		"/var/www/mmodule/database/seeds/DatabaseSeeder.php",
+		"/home/shance/.cache/.fr-0omScz/mod_catalogue_cart.xml",
+		"/var/www/dev.catalogue.lo/_dev/pkg_agg_catalogue/1/packages/com_catalogue/administrator/sql/uninstall.mysql.utf8.sql",
+		"/var/www/dev.catalogue.lo/_dev/pkg_agg_catalogue/1/packages/com_catalogue/administrator/sql/install.mysql.utf8.sql",
+		"/var/www/dev.catalogue.lo/administrator/components/com_catalogue/catalogue.xml",
+		"/home/shance/Downloads/q8phd_catalogue_attr_type (1).sql",
+		"/home/shance/Projects/agglesscat/administrator/config.xml",
+		"/home/shance/Projects/agglesscat/administrator/languages/ru-RU/ru-RU.com_catalogue.ini",
+		"/home/shance/Projects/agglesscat/administrator/views/items/view.html.php",
+		"/home/shance/Projects/agglesscat/administrator/models/fields/attributes.php",
+		"/home/shance/Projects/agglesscat/administrator/sql/uninstall.mysql.utf8.sql",
+		"/home/shance/Projects/agglesscat/administrator/catalogue.php",
+		"/home/shance/Projects/agglesscat/administrator/assets/css/admin-panel.css",
+		"/home/shance/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/var/www/jtest.lo/administrator/components/com_catalogue/tables/observer/item.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/build.xml",
+		"/run/media/shance/Ubuntu 16.0/rbautoreply/app.rb",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/administrator/views/catalogue/view.html.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/administrator/views/catalogue/tmpl/default.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/administrator/tables/catalogue.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/administrator/models/forms/filter_catalogue.xml",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/administrator/models/catalogue.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/administrator/controllers/catalogue.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/controllers/order.json.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/controllers/order.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/helpers/route.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/layouts/catalogue/category/item/description.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/layouts/catalogue/checkbox.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/layouts/catalogue/listbox.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/layouts/catalogue/range.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/models/cart.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/models/fields/alist.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/models/fields/atext.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/models/fields/cartitems.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/models/fields/datelist.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/models/fields/orderitems.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/models/item.php",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/site/views/cart/tmpl/default.php",
+		"/home/shance/Downloads/imaplib2.py",
+		"/home/shance/tmp/siko/siko.html",
+		"/var/www/dev.catalogue.lo/_dev/com_catalogue/com_catalogue.xml",
+		"/var/www/dev.catalogue.lo/_dev/mod_catmenu/mod_catmenu.xml",
+		"/var/www/dev.catalogue.lo/_dev/pkg_agg_catalogue/pkg_agg_catalogue.xml.tmpl",
+		"/var/www/dev.catalogue.lo/_dev/pkg_agg_catalogue/pkg_agg_catalogue.xml",
+		"/var/www/dev.catalogue.lo/_dev/pkg_agg_catalogue/build-dir/pkg_agg_catalogue.xml",
+		"/home/shance/tmp/plg_aggregion_g",
+		"/home/shance/Documents/ramp",
+		"/home/shance/Projects/jsautorep/config.ini.my",
+		"/home/shance/Projects/rbautoreply/t.rb",
+		"/home/shance/.cache/.fr-VLgTDM/ruby-2.3.1/lib/net/imap.rb",
+		"/home/shance/Documents/git-repos/imagetragick/nc.svg",
+		"/home/shance/Downloads/tick (1).svg",
+		"/home/shance/Projects/rbautoreply/app.rb",
+		"/home/shance/Documents/git-repos/imagetragick/test.sh",
+		"/home/shance/Downloads/drop-down-arrow (1).svg",
+		"/home/shance/Downloads/keyboard-right-arrow-button (1).svg",
+		"/home/shance/Downloads/user-avatar-main-picture (1).svg",
+		"/home/shance/Documents/git-repos/imagetragick/read.jpg",
+		"/usr/local/share/gems/gems/ocra-1.3.6/bin/ocra",
+		"/usr/share/ruby/net/imap.rb",
+		"/var/www/crypto/threat",
+		"/home/shance/Projects/pentest/tools/python/joomla_user_agent_exploit/info/sites.txt",
+		"/home/shance/Projects/pentest/tools/python/joomla_user_agent_exploit/test.py",
+		"/var/www/crypto/wlts",
+		"/var/www/crypto/out2",
+		"/home/shance/Documents/bta.csv",
+		"/home/shance/Documents/bta2.csv",
+		"/var/www/crypto/wlts2",
+		"/var/www/crypto/out3",
+		"/home/shance/Projects/pentest/tools/python/joomla_user_agent_exploit/info/final",
+		"/home/shance/Documents/bitcoin_addresses.csv",
+		"/home/shance/Projects/pentest/tools/python/joomla_user_agent_exploit/checker.py",
+		"/home/shance/Projects/pentest/tools/python/joomla_user_agent_exploit/no_home_urls",
+		"/home/shance/Projects/pentest/tools/python/joomla_user_agent_exploit/app.py",
+		"/var/www/crypto/out",
+		"/var/www/crypto/access.py",
+		"/var/www/crypto/droper.py",
+		"/var/www/crypto/index.php",
+		"/var/www/crypto/checker.php",
+		"/var/www/crypto/gen_wallet.py",
+		"/home/shance/Documents/bta2",
+		"/home/shance/Projects/pentest/tools/python/joomla_user_agent_exploit/info/targets.new",
+		"/var/www/kuda-komu/kudak/assets/styles/main/app.css",
+		"/var/www/mmodule/app/Http/Controllers/Aggregion.php",
+		"/var/www/mmodule/resources/assets/js/app.js",
+		"/usr/lib/python2.7/site-packages/imaplib2/imaplib2.py",
+		"/home/shance/Projects/pyautorepl/app.py",
+		"/var/www/mmodule/app/Http/Controllers/AggMage.php",
+		"/home/shance/Projects/pentest/csu/nmap",
+		"/home/shance/Documents/git-repos/dotjs-universal/scripts/mail.yandex.ru.js",
+		"/home/shance/Documents/git-repos/dotjs-universal/dotjs.js",
+		"/home/shance/Projects/pyautorepl/ft/app.py",
+		"/usr/bin/pip",
+		"/run/media/shance/045517b8-a86d-45b9-8d70-c7b40fc48caf/.ark/ssh/keys/connect.sh",
+		"/run/media/shance/045517b8-a86d-45b9-8d70-c7b40fc48caf/.ark/ssh/config",
+		"/usr/share/applications/lowdpi-google-chrome.desktop",
+		"/home/shance/Downloads/[DownSub.com] This computer will grow your food in the future - Caleb Harper (1).srt",
+		"/home/shance/Projects/pikachatbot/bot.py",
+		"/home/shance/Downloads/[DownSub.com] This computer will grow your food in the future - Caleb Harper.srt",
+		"/home/shance/.cache/.fr-FsqGeV/db.dat",
+		"/home/shance/Desktop/Брошенный Текст.txt",
+		"/home/shance/Desktop/Брошенный Текст 2.txt",
+		"/var/www/catagg.lo/gulpfile.js",
+		"/var/www/mmodule/storage/framework/views/e59390a60fa389ec95885889722c9636",
+		"/home/shance/tmp/plg_aggregion_groups/agggroups.php"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 192.0,
+		"where_history":
+		[
+			"/usr/share/themes/Arc-Darker",
+			"/home/shance/.config/sublime-text-3/Packages/Material Theme",
+			"/home/shance/Documents/git-repos/arc-theme/common/gtk-3.0/3.20/sass",
+			"/home/shance/Documents/git-repos/arc-theme/**/*.scss",
+			"/home/shance/Documents/git-repos/arc-theme",
+			"/usr/share/themes/Arc-Darker",
+			"/usr/share/themes/",
+			"/usr/share/themes/Arc-Darker",
+			"/var/www/dev.catalogue.lo/_dev/com_catalogue/administrator",
+			"/var/www/mmodule",
+			"/home/shance/Projects/agglesscat",
+			"/var/www/mmodule",
+			"/home/shance/Projects/ng-2",
+			"/var/www/hasko.ru",
+			"/var/www/magento",
+			"/home/shance/Documents/git-repos/ioq3",
+			"/home/shance/Documents/git-repos/vrquake3",
+			"/home/shance/Documents/git-repos/ioq3/code",
+			"/home/shance/Documents/git-repos/ioq3",
+			"/home/shance/Projects/smacss/lang-ru",
+			"/var/www/pechi-ural.ru/components/com_places",
+			"/var/www/pechi-ural.ru/components/com_content",
+			"/var/www/pechi-ural.ru/components/com_places",
+			"/var/www/pechi-ural.ru/administrator/components/com_content",
+			"/var/www/pechi-ural.ru/components/com_content",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/components/com_places",
+			"/var/www/pechi-ural.ru/",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/administrator/com_places",
+			"/var/www/pechi-ural.ru/administrator/",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/administrator/components/",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/",
+			"/var/www/pechi-ural.ru/administrator/components/",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/",
+			"/var/www/pechi-ural.ru/libraries",
+			"/var/www/pechi-ural.ru/libraries/joomla",
+			"/var/www/pechi-ural.ru/libraries/joomla/application",
+			"/var/www/pechi-ural.ru/administrator/components/com_content",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/administrator/components/com_content",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/administrator/components",
+			"/var/www/pechi-ural.ru/administrator/components/com_content",
+			"/var/www/pechi-ural.ru/administrator/components/com_menu",
+			"/var/www/pechi-ural.ru/administrator/",
+			"/var/www/pechi-ural.ru/administrator/components/",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/administrator/components/",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/administrator/components/",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/administrator",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/",
+			"/var/www/pechi-ural.ru/administrator/components",
+			"/var/www/pechi-ural.ru/administrator",
+			"/var/www/pechi-ural.ru/",
+			"/var/www/pechi-ural.ru/components/com_places",
+			"/var/www/pechi-ural.ru/administrator/components/com_places",
+			"/var/www/pechi-ural.ru/administrator/components/com_places/views",
+			"/home/shance/Documents/git-repos/com_places",
+			"/var/www/newsaity74.ru",
+			"/var/www/zfapp/",
+			"/var/www/zfapp/module/",
+			"/var/www/zfapp/module/cAuth",
+			"/var/www/color.it",
+			"/var/www/rasa.it",
+			"/var/www/magistral/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ELEMENT",
+			"142",
+			"2b2e39",
+			"262a33",
+			"2b2e39",
+			"#2b2e39",
+			"2b2e39",
+			".notebook",
+			".notebook ",
+			"TerminalWindow",
+			"border-top:",
+			"border-top",
+			"tab",
+			"terminal",
+			"tab",
+			"38, 50, 56",
+			"back",
+			"263238",
+			"back",
+			"263238",
+			"backgro",
+			"btn",
+			"404552",
+			"3f4350",
+			"404552",
+			"f0f2f5",
+			"button",
+			"Button",
+			"000000",
+			"000",
+			"ffffff",
+			":",
+			"\\n",
+			"base_color",
+			"\\n",
+			"@bg_color",
+			"light",
+			"dark",
+			"a7adb8",
+			"fcfdfd",
+			"5c616c",
+			"#202229",
+			"#5294E2",
+			"#383C4A",
+			"f5f6f7",
+			"404552",
+			"terminal",
+			"background",
+			"header",
+			"LEFT JOIN",
+			"#__",
+			":",
+			",",
+			" class=\"western\" align=\"justify\"",
+			"<br />",
+			"h3",
+			"$header-bar-height",
+			"$header-bar-height-lg",
+			"l-header_bar_logo",
+			"name=\"header\"",
+			"</span>",
+			"<span style=\"font-size: 22pt;\">",
+			"CatalogueCa",
+			"COM_CATALOGUE_AGGREGION_NO_ATTRIBUTES_WARNING",
+			"agglogin",
+			".min",
+			"q8phd_",
+			"q8",
+			"die",
+			"$cloned_table",
+			"cloned_table",
+			"$cloned_table",
+			"#__",
+			"q8phd_",
+			"q8phd_users",
+			"q8phd_",
+			"git-",
+			"ATTR_",
+			"__catalogue_item",
+			"#__",
+			"LEFT JOIN",
+			"#__",
+			"run",
+			"Blade::run",
+			"Blade::extend",
+			"@foreach",
+			"function run()",
+			"function run",
+			"@run",
+			"LEFT JOIN",
+			"FROM",
+			"q8phd_",
+			"10",
+			"#__",
+			"UNION",
+			"id LEFT JOIN",
+			"LEFT",
+			"union",
+			"q8phd_",
+			"UNION",
+			"LEFT JOIN",
+			"FROM",
+			"*",
+			"title",
+			"a_t",
+			"as a_",
+			"aa.attr_id",
+			"attr_id =",
+			"`q8phd_catalogue_attr`",
+			"LEFT JOIN",
+			"item_id",
+			"a_t.item_id, a_t.value, a_t.title",
+			"item_id, value, title",
+			"LEFT JOIN",
+			"LEFT",
+			"UNION ",
+			"*",
+			"as",
+			"SELECT",
+			"as",
+			"LEFT",
+			"as",
+			"a_",
+			"ON",
+			"FROM",
+			"SELECT",
+			"i.id",
+			"#__"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#fff",
+			"47, 52, 63",
+			"#__",
+			"&#39;&quot;&#39;&quot;&#39;",
+			"&#39&quot;&#39&quot;&#39",
+			"\\&#39;",
+			"\\'",
+			"'\\''",
+			"\\'",
+			"&#39;",
+			"&quot;",
+			"#_",
+			"\":\"",
+			"\"",
+			"",
+			"\\n",
+			"\"",
+			"'",
+			"$messageInput",
+			"data.user.name",
+			"$inputMessage",
+			"input-message",
+			"username-input",
+			"",
+			";\n",
+			"\nhttp",
+			"\"",
+			";\n",
+			"$1 :",
+			"\"$1\" :",
+			"$1",
+			"+",
+			"/",
+			" | ",
+			"",
+			"arr",
+			"var",
+			"agrg",
+			"point",
+			"com_places",
+			"point",
+			"t.",
+			"p.",
+			"town",
+			"townid",
+			"p.",
+			"__places_point",
+			"point",
+			"com_places",
+			"t.",
+			"places",
+			"town",
+			"townid",
+			"p.",
+			"point",
+			"place",
+			"p.",
+			"point",
+			"towns",
+			"Town",
+			"town",
+			"point",
+			"town",
+			"p.",
+			"point",
+			"town",
+			"point",
+			"town",
+			"places",
+			"town",
+			"places",
+			"town",
+			"com_places",
+			"town",
+			"com_places",
+			"town_id",
+			"places",
+			"com_places",
+			"__places_place",
+			"__places_town",
+			"com_places",
+			"Joomla.editors.instances['$id'].",
+			"wrapModeBtnId",
+			"editor",
+			"username",
+			"password",
+			"cAuth",
+			"colorit",
+			"+ц",
+			"+я",
+			"mark",
+			"'code' => 0",
+			"$.parseJSON",
+			"t6",
+			"t5",
+			"t4",
+			"sticker",
+			"price",
+			"name",
+			"price",
+			"name",
+			"price",
+			"name",
+			"item_name",
+			"Catalogue",
+			"#__"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 44.0
+	},
+	"input":
+	{
+		"height": 120.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.arduino_speaker":
+	{
+		"height": 193.0
+	},
+	"output.coffeecompile_output":
+	{
+		"height": 420.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 361.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 280.0
+	},
+	"output.stino_log":
+	{
+		"height": 170.0
+	},
+	"pinned_build_system": "Packages/User/javascript.sublime-build",
+	"project": "shanginn.sublime-project",
+	"replace":
+	{
+		"height": 84.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"models/agg",
+				"models/aggregion.php"
+			],
+			[
+				"models/fields/attributes.php",
+				"models/fields/attributes.php"
+			],
+			[
+				"helper",
+				"vendor/illuminate/html/helpers.php"
+			],
+			[
+				"items/view.html.php",
+				"administrator/views/items/view.html.php"
+			],
+			[
+				"attr/tmpl/edit.php",
+				"administrator/views/attr/tmpl/edit.php"
+			],
+			[
+				".less",
+				"node_modules/bs-recipes/recipes/middleware.css.injection/app/css/main.less"
+			],
+			[
+				"map",
+				"~/Projects/pentest/gbd/map"
+			],
+			[
+				"all",
+				"~/Projects/pentest/gbd/nmap_full.txt"
+			],
+			[
+				"sys_main.c",
+				"code/sys/sys_main.c"
+			],
+			[
+				"",
+				"code/asm/ftola.c"
+			],
+			[
+				"code/asm/ftola.c",
+				"code/asm/ftola.c"
+			],
+			[
+				"fto",
+				"code/asm/ftola.asm"
+			],
+			[
+				"q_shared.h",
+				"code/qcommon/q_shared.h"
+			],
+			[
+				"/qcommon/q_shared.h",
+				"code/qcommon/q_shared.h"
+			],
+			[
+				"code/server/server.h",
+				"code/server/server.h"
+			],
+			[
+				"qcommon.h",
+				"code/qcommon/qcommon.h"
+			],
+			[
+				"mponents/com_places/models/forms/town.xml",
+				"administrator/components/com_places/models/forms/town.xml"
+			],
+			[
+				"admcom_place.ini",
+				"administrator/language/ru-RU/ru-RU.com_places.ini"
+			],
+			[
+				"admplacini",
+				"administrator/language/ru-RU/ru-RU.com_places.ini"
+			],
+			[
+				"town.xml",
+				"administrator/components/com_places/models/forms/town.xml"
+			],
+			[
+				"admlangplaini",
+				"administrator/language/ru-RU/ru-RU.com_places.ini"
+			],
+			[
+				"ts/com_places/controllers/towns.php",
+				"administrator/components/com_places/controllers/towns.php"
+			],
+			[
+				"placemodeltown",
+				"administrator/components/com_places/models/town.php"
+			],
+			[
+				"s/com_places/models/towns.php",
+				"administrator/components/com_places/models/towns.php"
+			],
+			[
+				"admplacemodel",
+				"administrator/components/com_places/models/places.php"
+			],
+			[
+				"admcontemodelarti",
+				"administrator/components/com_content/models/articles.php"
+			],
+			[
+				"admplacesmodel",
+				"administrator/components/com_places/models/towns.php"
+			],
+			[
+				"sftp",
+				"sftp-config.json"
+			],
+			[
+				"controlleradmin.php",
+				"libraries/legacy/controller/admin.php"
+			],
+			[
+				"admpla.ini",
+				"administrator/language/ru-RU/ru-RU.com_places.ini"
+			],
+			[
+				"placehepl",
+				"components/com_places/helper.php"
+			],
+			[
+				"template.css",
+				"templates/blank_j3/css/template.css"
+			],
+			[
+				"sft",
+				"sftp-config.json"
+			],
+			[
+				"templa",
+				"templates/blank_j3/css/template.css"
+			],
+			[
+				"modelplaces",
+				"components/com_places/models/places.php"
+			],
+			[
+				"adminplaces.ini",
+				"administrator/language/ru-RU/ru-RU.com_places.ini"
+			],
+			[
+				"controlleradmin",
+				"administrator/components/com_catalogue/controllers/cataloguecontrolleradmin.php"
+			],
+			[
+				"style.css",
+				"modules/mod_places/assets/css/style.css"
+			],
+			[
+				"templ",
+				"templates/blank_j3/css/template.css"
+			],
+			[
+				"placeshelper",
+				"components/com_places/helper.php"
+			],
+			[
+				"places.ini",
+				"administrator/language/ru-RU/ru-RU.com_places.ini"
+			],
+			[
+				"placesedit.php",
+				"administrator/components/com_places/views/place/tmpl/edit.php"
+			],
+			[
+				"com_places",
+				"administrator/language/ru-RU/ru-RU.com_places.sys.ini"
+			],
+			[
+				"com_places.",
+				"administrator/language/ru-RU/ru-RU.com_places.ini"
+			],
+			[
+				"places.js",
+				"administrator/components/com_places/assets/js/places_adm.js"
+			],
+			[
+				"place.php",
+				"administrator/components/com_places/models/place.php"
+			],
+			[
+				"place.",
+				"components/com_places/models/place.php"
+			],
+			[
+				"codemirror",
+				"media/editors/codemirror/lib/codemirror.js"
+			],
+			[
+				"ace",
+				"plugins/editors/ace/ace.php"
+			],
+			[
+				"index.",
+				"templates/blank_j3/index.php"
+			],
+			[
+				"config.",
+				"module/Catalogue/config/module.config.php"
+			],
+			[
+				"zbt",
+				"vendor/mwillbanks/zfc-twitter-bootstrap/tests/ZfcTwitterBootstrap/View/Helper/BadgeTest.php"
+			],
+			[
+				"applica",
+				"config/application.config.php"
+			],
+			[
+				"elouqentbelo",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php"
+			],
+			[
+				"model.php",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"vote",
+				"app/Vote.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"babe",
+				"resources/assets/babel/babapp.es6"
+			],
+			[
+				"addword",
+				"app/Http/Requests/AddWord.php"
+			],
+			[
+				"words",
+				"app/Http/Controllers/WordsController.php"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"config.php",
+				"vendor/classpreloader/classpreloader/src/Config.php"
+			],
+			[
+				"controllercolor",
+				"app/Http/Controllers/ColorsController.php"
+			],
+			[
+				"babelapp",
+				"resources/assets/babel/babapp.es6"
+			],
+			[
+				"app.scss",
+				"resources/assets/sass/app.scss"
+			],
+			[
+				"babapp",
+				"resources/assets/babel/babapp.es6"
+			],
+			[
+				"colorscol",
+				"app/Http/Controllers/ColorsController.php"
+			],
+			[
+				"app.css",
+				"public/css/app.css"
+			],
+			[
+				"bootstrap.scss",
+				"resources/assets/vendor/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss"
+			],
+			[
+				".es6",
+				"resources/assets/babel/babapp.es6"
+			],
+			[
+				"main.scss",
+				"magistral/templates/blank_j3/src/sass/main.scss"
+			],
+			[
+				"catalogue.ini",
+				"magistral/administrator/language/ru-RU/ru-RU.com_catalogue.ini"
+			],
+			[
+				"mark.php",
+				"magistral/administrator/components/com_catalogue/models/mark.php"
+			],
+			[
+				"help.scss",
+				"templates/blank_j3/src/sass/_help.scss"
+			],
+			[
+				"_help.scss",
+				"templates/blank_j3/src/sass/_help.scss"
+			],
+			[
+				"reset.scss",
+				"templates/blank_j3/src/sass/_reset.scss"
+			],
+			[
+				"sprite.scs",
+				"templates/blank_j3/src/sass/_sprite.scss"
+			],
+			[
+				"sprite.scss",
+				"templates/blank_j3/src/sass/_sprite.scss"
+			],
+			[
+				"horiz",
+				"templates/blank_j3/html/mod_jsend/defaultHorizontalOrange.php"
+			],
+			[
+				"index.php",
+				"templates/blank_j3/index.php"
+			],
+			[
+				"en-gb.ace",
+				"administrator/language/en-GB/en-GB.plg_editors_ace.ini"
+			],
+			[
+				"pfm",
+				"com_panel/controllers/pfm.php"
+			],
+			[
+				"proje/tmpl/default.php",
+				"com_panel/views/project/tmpl/default.php"
+			],
+			[
+				"pfm.js",
+				"blank_j3/js/pfm.js"
+			],
+			[
+				"pfmw",
+				"blank_j3/js/pfmw.js"
+			],
+			[
+				"applic",
+				"blank_j3/js/application.js"
+			],
+			[
+				"appli",
+				"blank_j3/js/application.js"
+			],
+			[
+				"pfm.php",
+				"com_panel/helpers/pfm.php"
+			],
+			[
+				"pfmw.js",
+				"blank_j3/js/pfmw.js"
+			],
+			[
+				"css",
+				"gs-3.8/gnome-shell.css"
+			],
+			[
+				"pfmw.",
+				"cloud.saity74.ru/templates/blank_j3/js/pfmw.js"
+			],
+			[
+				"edit_pfm",
+				"cloud.saity74.ru/components/com_panel/views/project/tmpl/edit_pfm.php"
+			],
+			[
+				"pfm.scss",
+				"cloud.saity74.ru/templates/blank_j3/src/sass/pfm.scss"
+			],
+			[
+				"edit_pf",
+				"cloud.saity74.ru/components/com_panel/views/project/tmpl/edit_pfm.php"
+			],
+			[
+				"pfm_edito",
+				"cloud.saity74.ru/components/com_panel/views/project/tmpl/edit_pfm_editor.php"
+			],
+			[
+				"pfm_editor",
+				"cloud.saity74.ru/components/com_panel/views/project/tmpl/edit_pfm_editor.php"
+			],
+			[
+				"edit_p",
+				"cloud.saity74.ru/components/com_panel/views/project/tmpl/edit_pfm.php"
+			],
+			[
+				"fileac",
+				"cgi-bin/fileAction.huyash"
+			],
+			[
+				"install",
+				"cgi-bin/installJoomla.huyash"
+			],
+			[
+				"addlinux",
+				"cgi-bin/addLinuxUser.huyash"
+			],
+			[
+				"huyash",
+				"cgi-bin/getArgs.huyash"
+			],
+			[
+				"panelde",
+				"cloud.saity74.ru/components/com_panel/views/pay/tmpl/default.php"
+			],
+			[
+				"te/index.php",
+				"cloud.saity74.ru/templates/blank_j3/index.php"
+			],
+			[
+				"applicatio",
+				"cloud.saity74.ru/templates/blank_j3/js/application.js"
+			],
+			[
+				"addli",
+				"cgi-bin/addLinuxUser.huyash"
+			],
+			[
+				"get",
+				"cgi-bin/getArgs.huyash"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1000.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/catchup/katchup.sublime-project"
+			]
+		],
+		"width": 760.0
+	},
+	"select_symbol":
+	{
+		"height": 708.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 754.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 441.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
