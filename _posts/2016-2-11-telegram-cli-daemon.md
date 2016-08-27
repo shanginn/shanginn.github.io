@@ -3,6 +3,7 @@ layout: post
 title: Telegram CLI - демон для systemd систем
 category: Telegram CLI
 tags:
+- Telegram
 - Telegram CLI
 - systemd
 - CLI
@@ -81,7 +82,7 @@ systemctl --user enable telegram
 
 Общаться с нашим творением можно двумя способами.
 
-#### Netcat 
+#### Netcat
 
 Через netcat подключаемся на порт. Слушает он только локально, наружу не торчит.
 

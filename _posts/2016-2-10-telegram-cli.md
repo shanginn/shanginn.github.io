@@ -3,6 +3,7 @@ layout: post
 title: Telegram CLI
 category: Telegram CLI
 tags:
+- Telegram
 - Telegram CLI
 - CLI
 ---

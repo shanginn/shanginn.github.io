@@ -3,6 +3,7 @@ layout: post
 title: Telegram CLI - обёртка для демона под zsh
 category: Telegram CLI
 tags:
+- Telegram
 - Telegram CLI
 - zsh
 - CLI
@@ -114,7 +115,7 @@ function tcli () {
     nc localhost 7313
     return 0
   fi
-  
+
   tmpargs=()
   for var in "$@"; do
       if [[ -f $var ]]; then
@@ -122,7 +123,7 @@ function tcli () {
       fi
       tmpargs+=($var)
   done
-  
+
   (echo "$tmpargs"; sleep 0.5) | nc localhost 7313
 }
 ~~~
