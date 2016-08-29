@@ -1,11 +1,12 @@
 .tag-cloud {
   list-style: none;
   padding: 0;
-  text-align: justify; 
-  font-size: 16px;
+  text-align: justify;
+  font-size: 26px;
+  line-height: 30px;
   li {
     display: inline-block;
-    margin: 0 12px 12px 0; 
+    margin: 0 12px 12px 0;
   }
 }
 
@@ -31,7 +32,7 @@
   vertical-align: middle;
   a {
     @include tag($tag-color, $tag-height);
-    
+
     text-decoration: none;
     float: left;
     margin: 0 0 0 $tag-height;
