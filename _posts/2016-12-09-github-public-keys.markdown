@@ -108,11 +108,11 @@ Host example.com
 
 Лучше использовать разные ключи для разных хостов.
 
-## Дай дай дай дай
+## Ништяки
 
-База ключей будет доступна по адресу https://github.com/shanginn/github_public_keys_database
+База ключей будет доступна по [этому адресу](https://github.com/shanginn/github_public_keys_database)
 (На момент написания статьи git-lfs загрузил 90мб за 2 часа... sooo slooow...)
 
-Сервак, адаптированный для работы с этой базой тут: https://github.com/shanginn/whosthere
+Сервак, адаптированный для работы с этой базой [тут](https://github.com/shanginn/whosthere)
 
 Пользуйтесь на здоровье :)
