@@ -110,8 +110,9 @@ Host example.com
 
 ## Ништяки
 
-База ключей будет доступна по [этому адресу](https://github.com/shanginn/github_public_keys_database)
-(На момент написания статьи git-lfs загрузил 90мб за 2 часа... sooo slooow...)
+~~База ключей будет доступна по [этому адресу](https://github.com/shanginn/github_public_keys_database)~~
+~~(На момент написания статьи git-lfs загрузил 90мб за 2 часа... sooo slooow...)~~
+Если кому нужна база - пишите, скину. Если у вас есть место, куда можно выложить - обязтаельно пишите :)
 
 Сервак, адаптированный для работы с этой базой [тут](https://github.com/shanginn/whosthere)
 
