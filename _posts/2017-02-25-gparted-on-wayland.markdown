@@ -1,5 +1,5 @@
 ---
-title: GParted на Wayland
+title: GParted на Wayland. Чиним "cannot open display"
 layout: post
 category: Wayland
 tags:
@@ -9,6 +9,8 @@ tags:
 - fix
 ---
 
+Wayland уже хорош и пригоден к использованию, но иногда всё же вылазит всякая кака.
+
 ```
 $ sudo gparted
 #> No protocol specified
@@ -16,7 +18,7 @@ $ sudo gparted
 #> (gpartedbin:30127): Gtk-WARNING **: cannot open display: :0
 ```
 
-Знакомо? Wayland уже хорош и пригоден к использованию, но иногда всё же вылазит всякая кака.
+Знакомо?
 
 Чтобы запустить GParted под Wayland нужно разрешить ему(и всему локалхосту) цепляться к дисплею.
 
