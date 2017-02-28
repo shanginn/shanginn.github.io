@@ -1,7 +1,7 @@
 ---
 title: Приложения с X11 под рутом
 layout: post
-category: linux
+category: help
 tags:
 - linux
 - fix

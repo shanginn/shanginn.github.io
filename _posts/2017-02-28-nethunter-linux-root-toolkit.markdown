@@ -14,7 +14,9 @@ tags:
 1. Качаем [подготовленные мной файлы](https://yadi.sk/d/GGb1px493Ekh9A)
 2. Распаковываем:
 
-```tar -xzf nethunter-hammerhead-LRT.tgz && cd nethunter-hammerhead-LRT```.
+```
+tar -xzf nethunter-hammerhead-LRT.tgz && cd nethunter-hammerhead-LRT
+```
 
 
 3. Качаем стоковую прошивку:

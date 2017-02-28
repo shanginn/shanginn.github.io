@@ -1,7 +1,7 @@
 ---
 title: Sublime Text 3 виснет, съедая 100% CPU (plugin_host, crawl)
 layout: post
-category: Sublime Text
+category: help
 tags:
 - Sublime Text
 - fix

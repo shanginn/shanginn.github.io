@@ -1,7 +1,7 @@
 ---
 title: Google Chrome на lowDPI мониторе
 layout: post
-category: linux
+category: help
 tags:
 - linux
 - chrome

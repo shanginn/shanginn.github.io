@@ -1,7 +1,7 @@
 ---
 title: GParted на Wayland. Чиним "cannot open display"
 layout: post
-category: Wayland
+category: help
 tags:
 - GParted
 - Wayland
