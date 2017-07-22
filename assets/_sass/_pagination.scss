@@ -1,0 +1,19 @@
+.pagination {
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	> .pagination-page {
+		color: $gray;
+		font-weight: 800;
+		font-family: $font;
+		display: inline-block;
+		width: 28.745px;
+		line-height: 2;
+		vertical-align: middle;
+		border-bottom: none;
+	}
+	> span.pagination-page {
+		border-bottom: 2px solid $cyan-sh;
+		margin-top: 2px;
+	}
+}

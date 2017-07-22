@@ -29,7 +29,8 @@ a {
   text-decoration: none;
   transition: .3s all ease;
   color: inherit;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #333; 
+  word-wrap: break-word;
   &:hover, &:focus {
     cursor: pointer;
     text-decoration: none;
@@ -58,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2*$base-font-size;
+  font-size: 1.8*$base-font-size;
   line-height: 2*$unit;
 }
 

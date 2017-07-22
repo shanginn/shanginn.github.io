@@ -1,7 +1,6 @@
 #logo {
     > #sb,
-    > #sh,
-    > #ss {
+    > #sh {
         fill-rule: evenodd;
     }
     > #sb {
@@ -15,4 +14,26 @@
     > #ss {
         fill: #004D40;
     }
+}
+
+.site-avatar {
+    display: inline-block;
+    width: 30px;
+    height: 28.745px;
+    position: fixed;
+    right: 10px;
+    top: 16px;
+  &:hover {
+    background: none;
+  }
+
+  img {
+    height: 28.745px;
+  }
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
 }
