@@ -20,20 +20,13 @@
     display: inline-block;
     width: 30px;
     height: 28.745px;
-    position: fixed;
-    right: 10px;
-    top: 16px;
+    vertical-align: middle;
+    border-bottom: none; 
   &:hover {
     background: none;
   }
 
   img {
     height: 28.745px;
-  }
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
   }
 }

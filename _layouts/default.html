@@ -19,12 +19,28 @@
   </head>
 
   <body>
-    <a href="{{ site.baseurl }}/" class="site-avatar">
-      <svg width="28.745px" height="30px"  id="logo" xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" viewBox="0 0 574.8 600" overflow="scroll">
-        <path id="sb" d="M0 0h574.8v600H0z"/>
-        <path id="sh" d="M93.5 504.8h390.7v-409h-78.1v329.9H328V299.8h-78.1v125.9h-78.2V95.8H93.5v409zM328 95.8v125.9h-78.1V95.8H328z"/>
-      </svg>
-    </a>
+    <div class="wrapper-masthead">
+      <header class="masthead clearfix">
+          <!-- Pagination links -->
+          <div class="pagination">
+            <a href="{{ site.baseurl }}/" class="site-avatar">
+              <svg width="28.745px" height="30px"  id="logo" xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" viewBox="0 0 574.8 600" overflow="scroll">
+                <path id="sb" d="M0 0h574.8v600H0z"/>
+                <path id="sh" d="M93.5 504.8h390.7v-409h-78.1v329.9H328V299.8h-78.1v125.9h-78.2V95.8H93.5v409zM328 95.8v125.9h-78.1V95.8H328z"/>
+              </svg>
+            </a>
+            {% for page in (2..paginator.total_pages) %}
+              {% if page == paginator.page %}
+                <span class="pagination-page">{{ page }}</span>
+              {% elsif page == 1 %}
+                <a class="pagination-page" href="{{ site.baseurl }}/">{{ page }}</a>
+              {% else %}
+                <a class="pagination-page" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+      </header>
+    </div>
 
     <div id="main" role="main" class="container">
       {{ content }}

@@ -8,12 +8,13 @@
 		font-family: $font;
 		display: inline-block;
 		width: 28.745px;
-		line-height: 2;
+		line-height: 45px;
 		vertical-align: middle;
 		border-bottom: none;
 	}
 	> span.pagination-page {
 		border-bottom: 2px solid $cyan-sh;
 		margin-top: 2px;
+		line-height: 41px;
 	}
 }
