@@ -31,3 +31,6 @@ return [
 ```
 
 И всё будет работать.
+
+*PS:
+Почитать больше на эту тему можно [здесь](https://github.com/bobthecow/psysh/issues/540)*
