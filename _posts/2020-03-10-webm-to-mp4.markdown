@@ -1,0 +1,18 @@
+---
+title: Как сконвертировать webm в mp4?
+layout: post
+category: snippet
+tags:
+- ffmpeg
+- snippet
+---
+
+Почему когда я ищу команду для простейшего действия, мне предлагают сначала прочитать тонну теории?
+
+Чтобы превратить webm в mp4 достаточно выполнить
+
+```bash
+ffmpeg -i video.webm video.mp4
+```
+
+А если теперь вам интересна теория и больше подробностей, можете почитать [тут](https://blog.addpipe.com/converting-webm-to-mp4-with-ffmpeg/)
