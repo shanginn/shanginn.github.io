@@ -12,17 +12,17 @@ tags:
 
 Недавно я перевёл и озвучил [старый боян](https://www.youtube.com/watch?v=IGTr8iKWZJg)
 
-Но оригинальное видео (датируется 2007)[https://www.imdb.com/title/tt10943642/] годом, так что качество оставляло желать лучшего, а я слышал, что нейронки умеют его улучшать.
+Но оригинальное видео (датируется 2007)[https://www.imdb.com/title/tt10943642/] годом, так что его качество оставляет желать лучшего. Я слышал, что нейронки умеют его улучшать.
 
-Быстрый гуглёж по инструментам навёл меня на (waifu2x)[https://github.com/nagadomi/waifu2x], которая как раз позволяет улучшать качество картинок... только картинок, а не видео.
+Быстрый гуглёж по инструментам навёл меня на (waifu2x)[https://github.com/nagadomi/waifu2x], которая как раз позволяет улучшать качество картинок... картинок, а не видео.
 
-Для видео я нашел, например, (video2x)[https://github.com/k4yt3x/video2x]. Или, как утверждают авторы, более быстрая реализация (dandere2x)[https://github.com/aka-katto/dandere2x]. Но не было бы этой статьи если бы у меня получилось их скомпилировать под мак и всё было бы так просто.
+Для видео я нашел, например, (video2x)[https://github.com/k4yt3x/video2x]. Или более быстрая реализация (как утверждают авторы) (dandere2x)[https://github.com/aka-katto/dandere2x]. Но не было бы этой статьи если бы у меня получилось их скомпилировать под мак и всё было бы так просто.
 
-**Может оно и просто, но у меня не получилось быстро, а долго я не пытался**
+** Может оно и просто, но у меня не получилось быстро, а долго я не пытался **
 
 ## Приступим
 
-> Это ручная реализация в лоб из того что было, главное, чтобы работало.
+> Это ручная реализация в лоб из того, что было. Главное, чтобы работало.
 
 Нам потребуется 3 вещи: waifu2x, ffmpeg и bash
 
@@ -32,7 +32,7 @@ tags:
 brew install imxieyi/waifu2x/waifu2x ffmpeg
 ```
 
-Но для любителей, под macos у меня получилось собрать (c++ реализацию waifu2x)[https://github.com/tanakamura/waifu2x-converter-cpp] по (этому гайду)[https://www.reddit.com/r/waifu2x/comments/8whxl1/i_got_waifu2x_to_work_on_my_mac_heres_what_i_did/], но разницы с версией из brew лично я не ощутил (но у cpp версии параметров больше)
+Но, для любителей, под macos у меня получилось собрать (c++ реализацию waifu2x)[https://github.com/tanakamura/waifu2x-converter-cpp] по (этому гайду)[https://www.reddit.com/r/waifu2x/comments/8whxl1/i_got_waifu2x_to_work_on_my_mac_heres_what_i_did/], но разницы с версией из brew лично я не ощутил (у cpp версии параметров больше)
 
 ## Превращаем видео в картинки
 
@@ -43,7 +43,7 @@ ffmpeg -i video.mp4 frames/frame-%d.png
 
 ## Улучшаем качество каждой картинки
 
-Для удобства я создал пройтеший bash скриптец
+Для удобства я создал простеший bash скриптец
 
 ```bash
 vim v2x.sh && chmod +x v2x.sh
@@ -94,6 +94,18 @@ ffmpeg -r 29.97 -pattern_type sequence -i x2frames/frame-%d.png -i video.mp4 -ma
 * -map 1:a:0 - значит из *1* (второго) инпута берём *a*(аудиодорожку) с индексом *0*(первую)
 * -vcodec libx264 -pix_fmt yuv420p - кодек и формат пикселей, как на исходном видео
 * scaled.mp4 - название выходного файла
+
+## Результат
+
+Для сравнения:
+
+![]({{ site.basepath }} /images/posts/waifu2x/comapre.png)
+
+Оргинальные картинки
+
+![]({{ site.basepath }} /images/posts/waifu2x/frame_c.png)
+![]({{ site.basepath }} /images/posts/waifu2x/frame_cw.png)
+![]({{ site.basepath }} /images/posts/waifu2x/frame_cw2.png)
 
 ## Вот и всё!
 
