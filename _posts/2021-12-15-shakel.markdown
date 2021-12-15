@@ -1,0 +1,11 @@
+---
+title: Создание собственной криптовалюты на блокчейне Solana
+layout: post
+category: tutorial
+tags:
+- tutorial
+- crypto
+- solana
+---
+
+TODO
