@@ -33,7 +33,7 @@ tags:
 sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
 ```
 
-Но если что-то пошло не так, обратитесь к документации с (официального сайта)[https://docs.solana.com/cli/install-solana-cli-tools]
+Но если что-то пошло не так, обратитесь к документации с [официального сайта](https://docs.solana.com/cli/install-solana-cli-tools)
 
 ## Spl-token-cli
 
