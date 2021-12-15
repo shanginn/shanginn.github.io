@@ -8,4 +8,146 @@ tags:
 - solana
 ---
 
-TODO
+![](https://raw.githubusercontent.com/shanginn/shakel/master/logo.png)
+
+# Прям своя криптовалюта?
+Окей, не совсем. Создание своей криптовалюты очень непростое дело. Можно конечно просто форкнуть биткоин, но нужна большая сеть валидирующих нод, aka майнеров. Сложно и долго.
+
+Мы будем создавать свой крипто-токен на основе чужого блокчейна. Мы будем использовать блокчейн Solana.
+
+# Но ведь Etherium куда популярнее
+Так точно. И пока они не перейдут на Etherium 2.0, цены за транзакции остаются неподъемными, особенно за обмен токенами.
+
+На данный момент цена за транзакцию в Solana меньше рубля. А за счёт использования алгоритма консенсуса Proof-of-History (разновидности Proof-of-Stake) скорость транзакций практически моментальная.
+
+# Что понадобится
+Машина на Linux/MacOS, Rust, утилиты для работы с блокчейном Solana и генерации токенов, а также немного SOL (валюты Solana).
+
+## Rust
+Для установки Rust следуйте инструкциям с [официального сайта](https://www.rust-lang.org/ru/tools/install)
+
+## Solana-cli
+
+Достаточно скачать и запустить скрипт установки
+```bash
+sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
+```
+
+Но если что-то пошло не так, обратитесь к документации с (официального сайта)[https://docs.solana.com/cli/install-solana-cli-tools]
+
+## Spl-token-cli
+
+Здесь возпользуемся менеджером пакетов для Rust. Установка займёт некоторое время, всё должно пройти гладко.
+
+```bash
+cargo install spl-token-cli
+```
+
+Но если что, [документация здесь](https://spl.solana.com/token)
+
+# Приступаем
+## Настройка сети
+
+Для начала проверьте, что solana-cli настроена на работу с главной сетью:
+
+```bash
+solana config get
+```
+
+Должно выдать
+
+```bash
+Config File: ${HOME}/.config/solana/cli/config.yml
+RPC URL: https://api.mainnet-beta.solana.com
+WebSocket URL: wss://api.mainnet-beta.solana.com/ (computed)
+Keypair Path: ${HOME}/.config/solana/id.json
+```
+
+Если там другая сеть, верните всё как было с помощью 
+
+```bash
+solana config set --url https://api.mainnet-beta.solana.com
+```
+
+## Создание кошелька
+
+```bash
+solana-keygen new
+```
+
+Это команда создаст новый кошелёк в `${HOME}/.config/solana/id.json`. Если у вас уже есть кошелёк и вы хотите использовать его, найдите способ экспортировать ключ в виде массива чисел вида `[6,254,105,129,23,115,27, ... ,203,27,75,58,178,227,196,244,108,122,142,93]` и запишите эту строку в `${HOME}/.config/solana/id.json`.
+
+# Переходим к созданию
+
+*Для последующих операций нам потребуется немного SOL. Должно хватить 0.01 SOL, что по текущему курсу составляет примерно 120 рублей. У меня все транзакции сожрали 0.00352088 SOL (примерно 40 рублей).*
+
+## Создание токена
+
+```bash
+spl-token create-token
+# Creating token CBKFn5xH2y5b4jEdtUUW8rYJkuYoKEfGzSoQR2GYKP5V
+# Signature: 4vUNxhCwA8BZuNh6XidCXRdMKwaqHAFM9kgD5M3PkPkpHfmjiVmugcXLMQM7dS7DCZpL5p65BzThiwJAywH9Vgn1
+```
+
+*Затратило 0.0014716 SOL*
+
+`CBKFn5xH2y5b4jEdtUUW8rYJkuYoKEfGzSoQR2GYKP5V` - адрес вашего нового токена, он нам пригодится дальше.
+
+## Создаём аккаунт для токена
+
+```bash
+spl-token create-account CBKFn5xH2y5b4jEdtUUW8rYJkuYoKEfGzSoQR2GYKP5V
+# Creating account 4PGDvBqFgtj8DftBRYi219gANorrBAAviriSAz9GjMqD
+# Signature: 2Jru6MfW3jREJq2rQKZxctm9DTqnM7MCDQ4nc7WnkYNrKLrVyigKS4nB8NSmrfNWJmLewWmuSuLpBbN3yBCry2Mh
+```
+
+*Затратило 0.00204428 SOL*
+
+## Печатаем деньги
+
+Дальше нужно "отчеканить" необходимое вам количество монет. Не стесняйтесь, можно напечатать сколько угодно.
+
+```bash
+spl-token mint CBKFn5xH2y5b4jEdtUUW8rYJkuYoKEfGzSoQR2GYKP5V 10000000000 4PGDvBqFgtj8DftBRYi219gANorrBAAviriSAz9GjMqD
+# Minting 10000000000 tokens
+#  Token: CBKFn5xH2y5b4jEdtUUW8rYJkuYoKEfGzSoQR2GYKP5V
+#  Recipient: 4PGDvBqFgtj8DftBRYi219gANorrBAAviriSAz9GjMqD
+# Signature: 2RF1V2ws5uNfqZyXnf7WSFx39uZwspft9ip814UHm3r7LFMhsMAocd3JBZ51GV4XEyaJzxfnD17CFKZ8ZqKEonZm
+```
+
+*Затрачено 0.000005 SOL*
+
+Где
+- `CBKFn5xH2y5b4jEdtUUW8rYJkuYoKEfGzSoQR2GYKP5V` - адрес токена
+- `10000000000` - количество монет
+- `4PGDvBqFgtj8DftBRYi219gANorrBAAviriSAz9GjMqD` - адрес аккаунта для токена
+
+Чтобы проверить наличие монет на вашем аккаунте выполните
+```bash
+spl-token accounts
+# Token                                         Balance
+# ---------------------------------------------------------------
+# CBKFn5xH2y5b4jEdtUUW8rYJkuYoKEfGzSoQR2GYKP5V  10000000000
+```
+
+## Останавливаем производство
+
+Как только вы напечатали достаточно, разумным будет остановить выпуск новых монет, но это не обязательно. Будьте внимательны, насколько мне известно, восстановить выпуск монет невозможно.
+
+```bash
+spl-token authorize CBKFn5xH2y5b4jEdtUUW8rYJkuYoKEfGzSoQR2GYKP5V mint --disable
+# Updating CBKFn5xH2y5b4jEdtUUW8rYJkuYoKEfGzSoQR2GYKP5V
+#   Current mint authority: hobB4CWoWbxatFFXfCJTKEeoWXbFfTDbrQmRdGr7aUz
+#   New mint authority: disabled
+# Signature: 56iGKURQSivvvSH8p2bsNJbfa1xgbpWxQupLJmyYs2k9Ds9tQR1iC5mEvdb9Drq2rvjobhp3WSwqYpYJzzR2EyL8
+```
+
+*Затрачено 0.00000507999 SOL*
+
+## Токен готов
+
+Бум! Всё готово. Ваш личный крипто-токен уже в сети! Можете найти его на `https://solscan.io/token/CBKFn5xH2y5b4jEdtUUW8rYJkuYoKEfGzSoQR2GYKP5V`
+
+Но **Unknown Token** без логотипа звучит не очень респектабельно. Давайте это исправлять.
+
+# Токену нужно имя!
