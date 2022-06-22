@@ -76,7 +76,6 @@ cd tools/docker/debian
 # diff --git a/tools/docker/debian/build-container.sh b/tools/docker/debian/build-container.sh
 -docker build . --rm --tag "$IMAGE_NAME"
 +docker build . --platform linux/386 --rm --tag "$IMAGE_NAME"
-
 -docker create -t -i --name "$CONTAINER_NAME" "$IMAGE_NAME" bash
 +docker create --platform linux/386 -t -i --name "$CONTAINER_NAME" "$IMAGE_NAME" bash
 ```
