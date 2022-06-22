@@ -63,7 +63,7 @@ ls -la build/v86-debug.wasm
 Идём в папочку с образом:
 
 ```bash
-cd cd tools/docker/debian
+cd tools/docker/debian
 ```
 
 При использовании ветки master у меня возникала ошибка
