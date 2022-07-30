@@ -37,15 +37,13 @@ tags:
 Или же Constructor Property Promotion - это [определение свойств класса в конструкторе](https://www.php.net/manual/ru/language.oop5.decon.php#language.oop5.decon.constructor.promotion). Все параметры конструктора, в которых есть определение области видимости автоматически станут аттрибутом класса и им будут присвоены значения соответствующих переменных.
 
 ## Каким образом можно можно запускать один и тот же тест на разном наборе данных
-<details>
-  <summary>Ответ</summary>
+<details markdown=1>
+  <summary markdown="span">Ответ</summary>
 
   В PHPUnit можно запускать один и тот же тест с разными данными с помощью data provider'а:
   Специальная функция, которая возвращает массив массивов с аргументами теста. У этой функции должна быть аннотация `@dataProvider` и названием метода.
-  <details>
-    <summary>Например</summary>
 
-  вместо такого теста
+  Например, вместо такого теста
   
   ```php
   public function testSomething()
@@ -77,7 +75,6 @@ tags:
   ```
   
   И PHPunit запустит тест 2 раза и в случае ошибки покажет, на каком именно наборе данных она произошла.
-  </details>
 </details>
 
 ## В чем отличие composer.json и composer.lock
