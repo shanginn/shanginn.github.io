@@ -40,11 +40,13 @@ tags:
 <details>
   <summary>Ответ</summary>
   <!-- have to be followed by an empty line! -->
+
 В PHPUnit можно запускать один и тот же тест с разными данными с помощью data provider'а:
 Специальная функция, которая возвращает массив массивов с аргументами теста. У этой функции должна быть аннотация `@dataProvider` и названием метода.
   <details>
     <summary>Например</summary>
     <!-- have to be followed by an empty line! -->
+
 вместо такого теста
 
   ```php
