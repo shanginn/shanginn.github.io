@@ -2,7 +2,7 @@
 title: 20 вопросов Senior Backend PHP/GO разработчику на собеседовании в Avito.
 layout: post
 category: story
-image: /assets/images/covers/avito-interview-technical-screening.png
+cover: avito-interview-technical-screening.png
 tags:
 - avito
 - interview
