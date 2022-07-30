@@ -20,6 +20,8 @@
     {% if page.cover %}
       <meta property="og:image" content="{{ site.baseurl }}/images/covers/{{ page.cover }}" />
       <meta property="og:image:type" content="image/png">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:image" content="{{ site.baseurl }}/images/covers/{{ page.cover }}">
     {% endif %}
   </head>
 
