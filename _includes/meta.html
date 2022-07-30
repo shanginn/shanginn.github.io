@@ -9,12 +9,23 @@
     {% else %}
     <meta name="description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />
+    <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
+
     <meta name="author" content="{{ site.name }}" />
+    <meta name="twitter:site" content="@shanginn">
+    <meta name="twitter:creator" content="@shanginn">
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
+    {% endif %}
+
+    {% if page.cover %}
+    <meta property="og:image" content="{{ site.baseurl }}/images/covers/{{ page.cover }}" />
+    <meta property="og:image:type" content="image/png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.baseurl }}/images/covers/{{ page.cover }}">
     {% endif %}
 
     {% include favicon.html %}
