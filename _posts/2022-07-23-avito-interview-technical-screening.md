@@ -106,7 +106,7 @@ public function dataProviderForTest()
 ## Для чего нужны индексы
 <details markdown=1><summary markdown="span">Ответ</summary>
 Индексы ускоряют поиск данных по таблице.
-<details>
+</details>
 
 ### Почему поиск по индексу быстрее
 <details markdown=1><summary markdown="span">Ответ</summary>
@@ -178,4 +178,4 @@ HTTP обычно работает на 80 порту, HTTPS на 443.
 <details markdown=1><summary markdown="span">Ответ</summary>
 Процесс является основной единицей распределения ресурсов операционной системы, а поток является основной единицей планирования и выполнения задач процессора.
 Процесс состоит как минимум из одного потока, все потоки используют ресурсы процесса.
-<details>
+</details>
