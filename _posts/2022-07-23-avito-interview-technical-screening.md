@@ -39,46 +39,44 @@ tags:
 ## Каким образом можно можно запускать один и тот же тест на разном наборе данных
 <details>
   <summary>Ответ</summary>
-  <!-- have to be followed by an empty line! -->
 
   В PHPUnit можно запускать один и тот же тест с разными данными с помощью data provider'а:
   Специальная функция, которая возвращает массив массивов с аргументами теста. У этой функции должна быть аннотация `@dataProvider` и названием метода.
   <details>
     <summary>Например</summary>
-    <!-- have to be followed by an empty line! -->
 
-    вместо такого теста
-    
-    ```php
-    public function testSomething()
-    {
-        $data = [[1, 1, true], [1, 4, false]];
-        foreach($data as $dataSet) {
-           $this->assertEquals($dataSet[2], $dataSet[0] === $dataSet[1]);
-        }
-    }
-    ```
-    
-    Напишем data provider - функция, которая вернём необходимые наборы данных и обозначим его в нашем тесте:
-    ```php
-    /**
-     - @dataProvider dataProviderForTest
-     **/
-    public function testSomething(int $left, int $right, bool $expected)
-    {
-         $this->assertEquals($expected, $left === $right);
-    }
-    
-    public function dataProviderForTest()
-    {
-        return [
-          [1, 1, true],
-          [1, 4, false]
-        ];
-    }
-    ```
-    
-    И PHPunit запустит тест 2 раза и в случае ошибки покажет, на каком именно наборе данных она произошла.
+  вместо такого теста
+  
+  ```php
+  public function testSomething()
+  {
+      $data = [[1, 1, true], [1, 4, false]];
+      foreach($data as $dataSet) {
+         $this->assertEquals($dataSet[2], $dataSet[0] === $dataSet[1]);
+      }
+  }
+  ```
+  
+  Напишем data provider - функция, которая вернём необходимые наборы данных и обозначим его в нашем тесте:
+  ```php
+  /**
+   - @dataProvider dataProviderForTest
+   **/
+  public function testSomething(int $left, int $right, bool $expected)
+  {
+       $this->assertEquals($expected, $left === $right);
+  }
+  
+  public function dataProviderForTest()
+  {
+      return [
+        [1, 1, true],
+        [1, 4, false]
+      ];
+  }
+  ```
+  
+  И PHPunit запустит тест 2 раза и в случае ошибки покажет, на каком именно наборе данных она произошла.
   </details>
 </details>
 
