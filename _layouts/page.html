@@ -3,7 +3,11 @@ layout: default
 ---
 
 <article class="page">
-
+  {% if page.cover %}
+  <div class="cover">
+    <img src="{{ site.baseurl }}/images/covers/{{ page.cover }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
