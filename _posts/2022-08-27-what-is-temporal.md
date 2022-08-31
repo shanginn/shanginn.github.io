@@ -2,6 +2,7 @@
 title: Что такое Temporal?
 layout: post
 category: what-is
+cover: what-is-temporal.png
 tags:
 - what-is
 - Temporal
