@@ -165,6 +165,9 @@ $color_deep_sea_green_approx: #00555c;
   .fa-youtube-square {
     @include icon-style($color_persian_red_approx);
   }
+  .fa-telegram {
+    @include icon-style($color_royal_blue_approx);
+  }
   &.icon-circle .fa {
     border-radius: 50%;
   }

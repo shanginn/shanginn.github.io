@@ -10,12 +10,11 @@ footer-links:
   github: shanginn
   instagram: shanginn
   linkedin:
-  pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: shanginn
+  telegram: shanginn
   stackoverflow: users/2457191/shanginn # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: +НиколайШангин # anything in your profile username that comes after plus.google.com/
 
 disqus: shanginn
 
